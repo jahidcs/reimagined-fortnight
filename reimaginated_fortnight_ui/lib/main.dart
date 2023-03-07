@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:reimaginated_fortnight_ui/music/views/wrapper.dart';
 
 void main() {
   runApp(const App());
@@ -9,10 +10,10 @@ class App extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return const MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Music App',
-      home: Center(child: Text('App')),
+      home: Wrapper(),
     );
   }
 }
